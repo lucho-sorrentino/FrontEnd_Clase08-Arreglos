@@ -122,7 +122,7 @@
 // g) Todos los elementos separados por “*”.
 // h) Solicitar al usuario un nuevo artista para reemplazar al útimo ingresado.
 
-let artistas = ["U2", "Soda Stereo", "Bob Marley", "Metallica", "Incubus", "Pink Floyd", "Charly Garcia", "James Brown"];
+// let artistas = ["U2", "Soda Stereo", "Bob Marley", "Metallica", "Incubus", "Pink Floyd", "Charly Garcia", "James Brown"];
 
 // Punto a: Su longitud
 // console.log(artistas.length);
@@ -185,7 +185,7 @@ let artistas = ["U2", "Soda Stereo", "Bob Marley", "Metallica", "Incubus", "Pink
 // d) El mayor de ellos
 // e) Mostrar la mitad de elementos del array. (Pensar esto como si no supieramos la cantidad de posiciones que tiene.)
 
-let numeros = [1,2,3,6,11,120,37,68];
+// let numeros = [1,2,3,6,11,120,37,68];
 
 // Punto a: Su longitud.
 // console.log(numeros.length);
