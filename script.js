@@ -119,19 +119,118 @@
 // d) Todos los elementos
 // e) Todos los elementos menos el último 
 // f) Todos los elementos menos el primero
-// g) todos los elementos separados por “*”.
+// g) Todos los elementos separados por “*”.
 // h) Solicitar al usuario un nuevo artista para reemplazar al útimo ingresado.
 
+let artistas = ["U2", "Soda Stereo", "Bob Marley", "Metallica", "Incubus", "Pink Floyd", "Charly Garcia", "James Brown"];
 
+// Punto a: Su longitud
+// console.log(artistas.length);
+
+// Punto b: El último elemento
+// console.log(artistas[7]);
+
+// Punto c: Solo las posiciones pares
+// for (i=0; i<8; i++) {
+//     if (i%2 === 0) {
+//         console.log(artistas[i]);
+//     }    
+// }
+
+// Punto d: Todos los elementos
+// console.log(artistas);
+
+// O así?
+
+// for (i=0; i<8; i++) {
+//     console.log(artistas[i]);
+// }
+
+// Punto e: Todos los elementos menos el último 
+// for (i=0; i<7; i++) {
+//     console.log(artistas[i]);
+// }
+
+// // Punto f: Todos los elementos menos el primero
+// for (i=1; i<8; i++) {
+//     console.log(artistas[i]);
+// }
+
+// Punto g: Todos los elementos separados por “*”.
+// let cadena = artistas.join('*');
+// console.log(cadena);
+
+// ##### Pruebas #####
+// let newString = "Los Pericos,Ataque,Auténticos";
+// let newArray = newString.split(',');
+// console.log(newArray);
+// let otroString = newArray.join('*');
+// console.log(otroString);
+
+
+// Punto h: Solicitar al usuario un nuevo artista para reemplazar al útimo ingresado.
+// let newArtist = prompt("Ingrese un nuevo artista:");
+// artistas.push(newArtist);
+// console.log(artistas);
 
 
 
 
 
 // ********************* Ejercicio 5 *********************
-// Crear un array de 8 posiciones con números enteros  y mostrar:
+// Crear un array de 8 posiciones con números enteros y mostrar:
 // a) Su longitud
 // b) Solo las posiciones impares.
 // c) Solo los NUMEROS impares.
 // d) El mayor de ellos
 // e) Mostrar la mitad de elementos del array. (Pensar esto como si no supieramos la cantidad de posiciones que tiene.)
+
+let numeros = [1,2,3,6,11,120,37,68];
+
+// Punto a: Su longitud.
+// console.log(numeros.length);
+
+
+// Punto b: Sólo las posiciones impares.
+// for (i=0; i<numeros.length; i++) {
+//     if(i%2 !== 0) {
+//         console.log(i);
+//     }
+// }
+
+
+// Punto c: Sólo los NUMEROS impares.
+// for (i=0; i<numeros.length;i++) {
+//     if (numeros[i]%2 === 0) {
+//         console.log(numeros[i]);
+//     }    
+// }
+
+
+
+// Punto d: El mayor de ellos.
+// numeros = [1,2,3,6,11,120,37,68];
+// let saver = 0;
+// for (i=0; i<numeros.length; i++){     
+//     if (numeros[i]>saver) {
+//         saver = numeros[i];
+//         console.log(saver);
+//     }
+// }
+// alert("El número más alto es: " + saver);
+
+
+
+// Punto e: Mostrar la mitad de elementos del array. (Pensar esto como si no supieramos la cantidad de posiciones que tiene.)
+// let longitud = numeros.length;
+// console.log(longitud);
+// for (i=0; i < (longitud/2); i++) {
+//     console.log(numeros[i]);
+// }
+
+// También puede ser:
+// let halfArray = [];
+// for (i=0; i<(numeros.length/2); i++){
+//     halfArray.push(numeros[i]);
+// }
+// alert(halfArray);
